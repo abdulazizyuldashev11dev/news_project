@@ -1,0 +1,7 @@
+.idea/
+.vscode/
+
+
+# Ignore Pipenv files
+Pipfile
+Pipfile.lock
