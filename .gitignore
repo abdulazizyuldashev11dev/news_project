@@ -1,7 +1,30 @@
 .idea/
 .vscode/
 
+# Ignore log files
+*.log
+# Ignore database files
+*.sqlite3
+*.db
 
 # Ignore Pipenv files
 Pipfile
 Pipfile.lock
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore the local settings file
+local_settings.py
+
+# Ignore secret keys and sensitive information
+*.secret
+*.key
+*.pem
+
+# Ignore the Django migrations folder
+*/migrations/
+
+# Media files
+media/news/images/
